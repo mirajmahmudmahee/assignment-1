@@ -150,22 +150,42 @@ body {
 
 #email {
     padding: 50px;
-    width: 70%;
+    width: 50%;
     margin: auto;
     background-color: burlywood;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+#join {
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#volunteer {
+    color: white;
+}
+
+#form {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
 }
 
 #mail {
 
     border: none;
     border-left: 3px solid transparent;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     color: white;
     background-color: rgb(189, 169, 169);
     width: 40%;
+    height: 20px;
     padding: 5px;
 }
 
@@ -175,7 +195,8 @@ body {
     color: white;
     padding: 5px;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
+    height: 20px;
 }
 
 footer {
